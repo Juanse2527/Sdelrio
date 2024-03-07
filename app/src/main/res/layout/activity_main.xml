@@ -1,0 +1,36 @@
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- Aquí coloca los elementos para la entrada de valores -->
+    <EditText
+        android:id="@+id/lado1EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Lado 1"/>
+
+    <EditText
+        android:id="@+id/lado2EditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lado1EditText"
+        android:layout_marginTop="8dp"
+        android:hint="Lado 2"/>
+
+    <EditText
+        android:id="@+id/anguloEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/lado2EditText"
+        android:layout_marginTop="8dp"
+        android:hint="Ángulo"/>
+
+    <Button
+        android:id="@+id/calcularButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/anguloEditText"
+        android:layout_marginTop="16dp"
+        android:text="Calcular"/>
+</RelativeLayout>

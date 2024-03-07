@@ -1,0 +1,5 @@
+<!-- En res/drawable/launch_background.xml -->
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@color/fondo_azul_oscuro" />
+    <!-- Puedes agregar otros elementos, como una imagen, según sea necesario -->
+</layer-list>
